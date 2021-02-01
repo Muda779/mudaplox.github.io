@@ -132,8 +132,14 @@ h2 {
     color: rgb(37, 37, 37);  
     text-decoration: none;
   }
+  
+  .twitter {
+    transition: all 0.30s ease-out;  
+    color: #1da1f2;  
+    text-decoration: none;
+  }
 
-  .discord:hover, .instagram:hover, .github:hover {
+  .discord:hover, .instagram:hover, .github:hover, .twitter:hover {
     transition: all 0.30s ease-out;  
     opacity: 70%;  
   }
@@ -147,17 +153,34 @@ h2 {
     color: white;
   }
 
+.py_y, .js_y, .html_y, .css_y {
+  font-size: 12px;
+  font-family: var(--title-font-family);
+  color: #fafafa;
+  border-radius: 7px;
+}
+
+.py_y{
+  border: 3px solid #326e9e;
+  background-color: #326e9e;
+}
+.js_y{
+  border: 3px solid #efd81d;
+  background-color: #efd81d;
+}
+.html_y{
+  border: 3px solid #e6612d;
+  background-color: #e6612d;
+}
+.css_y{
+  border: 3px solid #258ac5;
+  background-color: #258ac5;
+}
+
   .footer {
-    user-select: none;
-    opacity: 30%;
     padding-top: 15px;
     text-align: center;
     font-size: 15px;
-  }
-
-  ::selection {
-    color: white;
-    background-color: black;
   }
 
   @media screen and (min-width: 1920px) {
