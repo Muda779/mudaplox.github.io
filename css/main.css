@@ -118,41 +118,36 @@ h2 {
  }
 
   .discord {
-    transition: all 0.30s ease-out;  
     color: #677bc4;  
     text-decoration: none;
   }
 
   .instagram {
-    transition: all 0.30s ease-out;  
     color: purple;  
     text-decoration: none;
   }
 
   .github {
-    transition: all 0.30s ease-out;  
     color: rgb(37, 37, 37);  
     text-decoration: none;
   }
   
   .twitter {
-    transition: all 0.30s ease-out;  
     color: #1da1f2;  
     text-decoration: none;
   }
 
   .discord:hover, .instagram:hover, .github:hover, .twitter:hover {
-    transition: all 0.30s ease-out;  
-    opacity: 71%;  
+    opacity: 90%;  
   }
 
-  .fa-moon {
+  .fa-sun {
     cursor: pointer;
-    padding-top: 12px;
-    padding-right: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
     float: right;
-    font-size: 25px;
-    color: white;
+    font-size: 20px;
+    color: black;
   }
 
 .py_y, .js_y, .html_y, .css_y {
@@ -180,6 +175,7 @@ h2 {
 }
 
   .footer {
+    color: black;
     padding-top: 15px;
     text-align: center;
     font-size: 15px;
@@ -335,15 +331,6 @@ h2 {
     opacity: 70%;  
   }
 
-  .fa-moon {
-    cursor: pointer;
-    padding-top: 12px;
-    padding-right: 12px;
-    float: right;
-    font-size: 25px;
-    color: white;
-  }
-
   .footer {
     user-select: none;
     opacity: 30%;
@@ -352,8 +339,12 @@ h2 {
     font-size: 15px;
   }
 
-  ::selection {
-    color: white;
-    background-color: black;
+  .fa-moon {
+    cursor: pointer;
+    padding-top: 12px;
+    padding-right: 12px;
+    float: right;
+    font-size: 25px;
+    color: black;
   }
 }

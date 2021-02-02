@@ -5,9 +5,9 @@ function enableDarkMode() {
     let link=document.createElement("link");
   link.setAttribute("rel", "stylesheet");
   link.setAttribute("type", "text/css");
-  link.setAttribute("href", "css/light-mode.css");
+  link.setAttribute("href", "css/dark-mode.css");
   document.getElementsByTagName("head")[0].appendChild(link);
-  icon.setAttribute("class", "fas fa-sun")
+  icon.setAttribute("class", "far fa-moon")
   icon.setAttribute("id", "dark-mode-toggle")
   document.getElementById("dark-mode-toggle").appendChild(icon)
   document.body.classList.add("darkmode");
@@ -20,7 +20,7 @@ function disableDarkMode() {
   link.setAttribute("type", "text/css");
   link.setAttribute("href", "css/main.css");
   document.getElementsByTagName("head")[0].appendChild(link);
-  icon.setAttribute("class", "fas fa-moon")
+  icon.setAttribute("class", "far fa-sun")
   icon.setAttribute("id", "dark-mode-toggle")
   document.getElementById("dark-mode-toggle").appendChild(icon)
   document.body.classList.remove("darkmode");

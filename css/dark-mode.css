@@ -1,0 +1,350 @@
+:root {
+    --title-font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+      source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+      segoe ui emoji;
+    --main-font-family: lato, -apple-system, BlinkMacSystemFont, segoe ui, helvetica, arial, pingfang sc,
+      source han sans sc, noto sans cjk sc, sarasa gothic sc, microsoft yahei, sans-serif, apple color emoji,
+      segoe ui emoji;
+    --monospace-font-family: sfmono-regular, consolas, liberation mono, menlo, monospace;
+    --xz: 400px;
+    --color: white;
+  }
+
+  body, html {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    margin: auto;
+    font-family: var(--title-font-family);
+    cursor: default;
+  }
+
+h1 {
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    font-weight: 700
+}
+
+#name-container[data-v-9af5cd54] {
+    margin-left: var(--xz);
+    padding-top: 20px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#avatar[data-v-9af5cd54] {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 12px;
+}
+
+h2 {
+    font-family: var(--title-font-family);
+    color: var(--color);
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: var(--xz);
+    font-size: 25px;
+    padding: 10px 0 4px;
+}
+
+.about {
+    font-size: 15px;
+    margin-left: var(--xz);
+    color: white;
+    font-family: var(--main-font-family);
+}
+
+.container {
+    width: 25%;
+    background-color: #3a3a3a;
+    margin-left: var(--xz);
+
+ }
+ .hc, .js, .python, .css {
+   font-size: 15px;
+    font-family: var(--monospace-font-family);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+ }
+ .hc {
+    width: 30%;
+    background-color: #e6612d;
+ }
+ .js {
+    width: 60%;
+    background-color: #efd81d;
+ }
+ .python {
+    width: 30%;
+    background-color: #326e9e;
+ }
+
+ .css {
+  width: 30%;
+  background-color: #258ac5;
+}
+
+ .pythont, .jst, .csst {
+     font-size: 15px;
+     margin-left: var(--xz);
+     color:white;
+     font-family: var(--monospace-font-family);
+ }
+
+  .discord {
+    color: #677bc4;  
+    text-decoration: none;
+  }
+
+  .instagram {
+    color: purple;  
+    text-decoration: none;
+  }
+
+  .github {
+    color: rgb(214, 214, 214);  
+    text-decoration: none;
+  }
+  
+  .twitter {
+    color: #1da1f2;  
+    text-decoration: none;
+  }
+
+  .discord:hover, .instagram:hover, .github:hover, .twitter:hover {
+    opacity: 90%;  
+  }
+
+  .fa-moon {
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+    font-size: 20px;
+    color: white;
+  }
+
+.py_y, .js_y, .html_y, .css_y {
+  font-size: 12px;
+  font-family: var(--title-font-family);
+  color: #fafafa;
+  border-radius: 7px;
+}
+
+.py_y{
+  border: 3px solid #326e9e;
+  background-color: #326e9e;
+}
+.js_y{
+  border: 3px solid #efd81d;
+  background-color: #efd81d;
+}
+.html_y{
+  border: 3px solid #e6612d;
+  background-color: #e6612d;
+}
+.css_y{
+  border: 3px solid #258ac5;
+  background-color: #258ac5;
+}
+
+  .footer {
+    color: white;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1920px) {
+    body {
+      overflow-y: hidden !important;
+      overflow-x: hidden !important;
+      max-height: 100vh;
+      max-width: 100vw;
+      background-color: black;
+      margin: auto;
+      font-family: var(--title-font-family);
+      cursor: default;
+      zoom: 140%;
+    } 
+    .footer {
+      opacity: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  body, html {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: black;
+    margin: auto;
+    font-family: var(--title-font-family);
+    cursor: default;
+  }
+
+h1 {
+    font-family: var(--title-font-family);
+    font-size: 30px;
+    font-weight: 700
+}
+
+#name-container[data-v-9af5cd54] {
+    margin-left: 100px;
+    padding-top: 20px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#avatar[data-v-9af5cd54] {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-right: 12px;
+}
+
+h2 {
+    font-family: var(--title-font-family);
+    color: white;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-left: 135px;
+    font-size: 25px;
+    padding: 10px 0 4px;
+}
+
+.who {
+  margin-left: 110px;
+}
+
+.about {
+  margin-left: 50px;
+    font-size: 15px;
+    color: white;
+    font-family: var(--main-font-family);
+}
+
+.container {
+    width: 70%;
+    background-color: #3a3a3a;
+    margin-left: 50px;
+
+ }
+ .hc, .js, .python, .css {
+   font-size: 15px;
+    font-family: var(--monospace-font-family);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+ }
+ .hc {
+    width: 30%;
+    background-color: #e6612d;
+ }
+ .js {
+    width: 60%;
+    background-color: #efd81d;
+ }
+ .python {
+    width: 30%;
+    background-color: #326e9e;
+ }
+
+ .css {
+  width: 30%;
+  background-color: #258ac5;
+}
+
+ .pythont, .jst, .csst {
+     font-size: 15px;
+     margin-left: 100px;
+     color:white;
+     font-family: var(--monospace-font-family);
+ }
+
+  .discord {
+    transition: all 0.30s ease-out;  
+    color: #677bc4;  
+    text-decoration: none;
+  }
+
+  .instagram {
+    transition: all 0.30s ease-out;  
+    color: purple;  
+    text-decoration: none;
+  }
+
+  .github {
+    transition: all 0.30s ease-out;  
+    color: rgb(214, 214, 214);  
+    text-decoration: none;
+  }
+
+  .discord:hover, .instagram:hover, .github:hover {
+    transition: all 0.30s ease-out;  
+    opacity: 70%;  
+  }
+
+  .fa-sun {
+    cursor: pointer;
+    padding-top: 12px;
+    padding-right: 12px;
+    float: right;
+    font-size: 25px;
+    color: white;
+  }
+
+  .footer {
+    user-select: none;
+    opacity: 30%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+}
