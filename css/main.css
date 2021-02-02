@@ -11,6 +11,7 @@
   }
 
   body, html {
+    transition: all 0.30s ease-out;  
     overflow-y: hidden !important;
     overflow-x: hidden !important;
     min-height: 100vh;
@@ -135,10 +136,6 @@ h2 {
   .twitter {
     color: #1da1f2;  
     text-decoration: none;
-  }
-
-  .discord:hover, .instagram:hover, .github:hover, .twitter:hover {
-    opacity: 90%;  
   }
 
   .fa-sun {

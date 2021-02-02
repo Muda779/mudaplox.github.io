@@ -10,6 +10,10 @@
     --color: white;
   }
 
+* {
+  transition: all 0.10s ease-out;  
+}
+
   body, html {
     overflow-y: hidden !important;
     overflow-x: hidden !important;
@@ -135,10 +139,6 @@ h2 {
   .twitter {
     color: #1da1f2;  
     text-decoration: none;
-  }
-
-  .discord:hover, .instagram:hover, .github:hover, .twitter:hover {
-    opacity: 90%;  
   }
 
   .fa-moon {
