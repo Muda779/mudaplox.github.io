@@ -12,8 +12,8 @@
 
   body, html {
     transition: all 0.30s ease-out;  
-    overflow-y: hidden !important;
     overflow-x: hidden !important;
+    overflow-y: hidden !important;
     min-height: 100vh;
     min-width: 100vw;
     background-color: #fafafa;
@@ -30,7 +30,7 @@ h1 {
 
 #name-container[data-v-9af5cd54] {
     margin-left: var(--xz);
-    padding-top: 20px;
+    padding-top: 15px;
     color: black;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,7 +50,7 @@ h1 {
 #avatar[data-v-9af5cd54] {
     width: 50px;
     height: 50px;
-    border-radius: 10%;
+    border-radius: 50%;
     margin-right: 12px;
 }
 
@@ -69,7 +69,7 @@ h2 {
 h2 {
     margin-left: var(--xz);
     font-size: 25px;
-    padding: 10px 0 4px;
+    padding: 6px 0 4px;
 }
 
 .about {
@@ -77,6 +77,12 @@ h2 {
     margin-left: var(--xz);
     color: black;
     font-family: var(--main-font-family);
+}
+
+.p_link {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
 }
 
 .container {
@@ -171,12 +177,77 @@ h2 {
   background-color: #258ac5;
 }
 
-  .footer {
-    color: black;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 15px;
-  }
+.back {
+  padding-top: 25px;
+  padding-left: 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+  .title {
+    font-family: var(--title-font-family);
+    color: var(--color);
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.title {
+    margin-left: var(--xz);
+    font-size: 25px;
+    padding: 40px 0 4px;
+}
+.no1, .no2 {
+  box-shadow: 1px 0 10px 0 rgb(223, 223, 223);
+	transition: 0.30s ease-out;
+	padding-top: 2px;
+	float: left;
+	margin-left: var(--xz);
+	background-color: white;
+	border-radius: 10px;
+	width: 40.3%;
+	border: 5px solid white;	
+	border-top: 10px;
+	border-left: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
+	padding-bottom: 8px;
+	font-size: 15px;
+}
+.no1:hover, .no2:hover{
+	box-shadow: 1px 0 20px rgb(218, 218, 218);
+}
+.info {
+	padding-top: 5px;
+}
+.fa-star {
+	padding-left: 15px;
+}
+.fa-code-branch {
+	padding-left: 15px;
+}
+.fa-css3 {
+  color: #4c6ef5;
+}
+p {
+	font-family: var(--title-font-family);
+}
+.pinky, .website {
+  font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.no1 {
+  margin-bottom: 20px;
+}
+.p_js {
+  margin-bottom: -3px;
+  width: 3.4%;
+  height: 3.4%;
+}
 
   @media screen and (min-width: 1920px) {
     body {
